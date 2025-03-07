@@ -23,7 +23,10 @@ export class AppComponent {
   };
 
   // Array to store contacts
-  contacts: any[] = [];
+  contacts: any[] = [
+    { fullName: 'Varaz Mishra', address: 'Marve Road,Next TO Maniratna,Malad(west)', city: 'Mumbai', state: 'Maharastra', zip: 'p400064',phoneNumber: '02228017752' },
+    { fullName: 'Trishna Bhalla', address: '456 Elm St', city: 'Mumbai', state: 'Maharastra', zip: '400003', phoneNumber: '55567800' }
+  ];
 
   // Method to add a contact to the contacts array
   addContact() {
